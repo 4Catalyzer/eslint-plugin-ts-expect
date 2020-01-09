@@ -13,7 +13,7 @@
     "test": "jest",
     "build": "4c build src -d lib",
     "prepublishOnly": "yarn run build",
-    "release": "4c rollout"
+    "release": "4c release"
   },
   "husky": {
     "hooks": {
