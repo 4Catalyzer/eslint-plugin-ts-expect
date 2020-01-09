@@ -1,12 +1,14 @@
 {
   "name": "eslint-plugin-ts-expect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/4Catalyzer/eslint-plugin-ts-expect.git"
+    "url": "git+https://github.com/4Catalyzer/eslint-plugin-ts-expect.git"
   },
-  "author": "4Catalyzer",
+  "author": {
+    "name": "4Catalyzer"
+  },
   "license": "MIT",
   "scripts": {
     "tdd": "jest --watch",
@@ -74,5 +76,11 @@
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/4Catalyzer/eslint-plugin-ts-expect/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/4Catalyzer/eslint-plugin-ts-expect#readme",
+  "_id": "eslint-plugin-ts-expect@1.0.0"
 }
