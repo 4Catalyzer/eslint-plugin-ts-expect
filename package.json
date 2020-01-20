@@ -25,8 +25,7 @@
   "lint-staged": {
     "*.js": [
       "eslint --fix",
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "publishConfig": {
@@ -74,7 +73,7 @@
     "jest": "^24.9.0",
     "typescript": "^3.7.4",
     "husky": "^4.0.7",
-    "lint-staged": "^9.5.0",
+    "lint-staged": "^10.0.0",
     "prettier": "^1.19.1"
   },
   "bugs": {
