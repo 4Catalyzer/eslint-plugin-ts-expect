@@ -72,8 +72,8 @@
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.1.0",
     "typescript": "^3.7.5",
-    "husky": "^4.0.10",
-    "lint-staged": "^10.0.0",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.3",
     "prettier": "^1.19.1"
   },
   "bugs": {
