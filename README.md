@@ -19,14 +19,15 @@ In your `.eslintrc.json`:
 // tests/.eslintrc.js
 
 module.exports = {
-  "plugins": ["ts-expect"],
-  "parser": "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     tsconfigRootDir: __dirname,
     project: ['./tsconfig.json'],
-  }
-  "rules": {
-    "ts-expect/expect": "error"
+  },
+
+  plugins: ['ts-expect'],
+  rules: {
+    'ts-expect/expect': 'error'
   }
 }
 ```
