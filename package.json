@@ -50,7 +50,7 @@
     "@typescript-eslint/experimental-utils": "^2.15.0"
   },
   "devDependencies": {
-    "@4c/cli": "^1.0.5",
+    "@4c/cli": "^2.0.1",
     "@4c/jest-preset": "^1.4.4",
     "@4c/babel-preset": "^7.3.0",
     "@4c/import-sort": "^4.3.6",
