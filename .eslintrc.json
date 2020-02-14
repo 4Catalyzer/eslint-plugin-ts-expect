@@ -3,8 +3,8 @@
   "extends": [
     "4catalyzer",
     "4catalyzer-jest",
-    "prettier",
-    "4catalyzer-typescript"
+    "4catalyzer-typescript",
+    "prettier"
   ],
   "env": {
     "node": true
