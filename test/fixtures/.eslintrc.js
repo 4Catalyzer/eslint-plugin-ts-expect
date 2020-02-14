@@ -1,6 +1,5 @@
 module.exports = {
-  extends: [require.resolve('../../../eslint-config-4catalyzer-typescript')],
-  plugins: ['react'],
+  extends: [require.resolve('eslint-config-4catalyzer-typescript')],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],

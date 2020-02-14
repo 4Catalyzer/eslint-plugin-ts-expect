@@ -2,6 +2,11 @@
 
 /* eslint-disable no-param-reassign */
 
+import {
+  ESLintUtils,
+  TSESLint,
+  TSESTree,
+} from '@typescript-eslint/experimental-utils';
 import ts, {
   ExpressionStatement,
   Node,
@@ -9,11 +14,6 @@ import ts, {
   TypeChecker,
   VariableStatement,
 } from 'typescript';
-import {
-  ESLintUtils,
-  TSESLint,
-  TSESTree,
-} from '@typescript-eslint/experimental-utils';
 
 const createRule = ESLintUtils.RuleCreator(() => `fasfasfas`);
 
