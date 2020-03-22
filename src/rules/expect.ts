@@ -139,7 +139,7 @@ function getExpectTypeFailures(
       if (
         !expected
           .split(/\s*\|\|\s*/)
-          .some(s => actual === s || matchReadonlyArray(actual, s))
+          .some((s) => actual === s || matchReadonlyArray(actual, s))
       ) {
         unmetExpectations.push({ node, expected, actual });
       }
@@ -199,7 +199,7 @@ module.exports = createRule({
       const typeAssertions = new Map();
       const duplicates = [] as number[];
 
-      comments.forEach(comment => {
+      comments.forEach((comment) => {
         const match = /^ \$Expect((Type (.*))|Error)$/.exec(comment.value);
         if (match === null) {
           return;
