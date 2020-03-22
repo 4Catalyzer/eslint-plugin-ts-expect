@@ -16,11 +16,11 @@ class RuleTester extends TSESLint.RuleTester {
   }
 
   run(name, r, tests) {
-    tests.valid = tests.valid.map(t => ({
+    tests.valid = tests.valid.map((t) => ({
       ...t,
       filename: t.filename || `${__dirname}/fixtures/file.ts`,
     }));
-    tests.invalid = tests.invalid.map(t => ({
+    tests.invalid = tests.invalid.map((t) => ({
       ...t,
       filename: t.filename || `${__dirname}/fixtures/file.ts`,
     }));
