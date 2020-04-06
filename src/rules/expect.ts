@@ -110,11 +110,13 @@ function getExpectTypeFailures(
   typeAssertions: Map<number, string>,
   checker: TypeChecker,
 ) {
-  const unmetExpectations = [] as Array<{
-    node: Node;
-    expected: string;
-    actual: string;
-  }>;
+  const unmetExpectations =
+    [] as
+    Array<{
+      node: Node;
+      expected: string;
+      actual: string;
+    }>;
   // Match assertions to the first node that appears on the line they apply to.
   // `forEachChild` isn't available as a method in older TypeScript versions, so must use `ts.forEachChild` instead.
   ts.forEachChild(sourceFile, function iterate(node) {
