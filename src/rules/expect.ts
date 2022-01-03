@@ -1,6 +1,6 @@
 /* Code, in part, from https://github.com/microsoft/dtslint/commit/5f7605cea35054286c1dce02e5cb081ee350f16a */
 
-/* eslint-disable no-param-reassign */
+/* eslint-disable no-param-reassign, import/no-import-module-exports */
 
 import {
   ESLintUtils,
@@ -160,6 +160,7 @@ module.exports = createRule({
       description:
         'Asserts types with $ExpectType and presence of errors with $ExpectError.',
       recommended: 'error' as const,
+      // @ts-ignore
       category: 'Possible Errors' as const,
       requiresTypeChecking: true,
     },
